@@ -35,5 +35,5 @@ def mongraphique():
     return render_template("graphique.html")
 
 @app.route('/histogramme/')
-def hello_world():
+def histogramme():
     return render_template('histogramme.html')
